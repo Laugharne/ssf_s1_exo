@@ -90,6 +90,8 @@ program
       amount * web3.LAMPORTS_PER_SOL,
     );
     console.log("");
+    console.log("(Please wait few seconds before any other operation...)");
+    console.log("");
 
 });
 
@@ -149,6 +151,8 @@ program
     const signature    = await connection.sendRawTransaction(serializedTx);
     console.log("Signature: ", signature);
   
+    console.log("");
+    console.log("(Please wait few seconds before any other operation...)");
     console.log("");
 
 });

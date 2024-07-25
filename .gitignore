@@ -176,7 +176,8 @@ dist
 
 
 *.wallet.json
-history.logbackup/
+history.log
+backup/
 .zipignore
 versions.log
 solana_cfg.log
