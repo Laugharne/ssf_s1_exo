@@ -1,5 +1,3 @@
- 1802  git status 
- 1803  zz _node
  1804  solana-test-validator --reset
  1805  zzz ato
  1806  htop
@@ -198,3 +196,5 @@
  1999  bak "Fix typo"
  2000  zz s1
  2001  bak "Fix typo"
+ 2002  gitpush
+ 2003  bak "Add image"

@@ -1,5 +1,9 @@
 # exo_s1
 
+![](Zoom_Meeting_041.png)
+
+Build **a cli wallet** that generates a keypair and can handle airdrop/sending sol.
+
 ## Install
 
 Install **bun**
@@ -100,5 +104,6 @@ const connection = new Connection("http://localhost:8899");
 
 ## Resources
 
+- [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 - [bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?) when importing Connection from @solana/web3.js - Solana Stack Exchange](https://solana.stackexchange.com/questions/4077/bigint-failed-to-load-bindings-pure-js-will-be-used-try-npm-run-rebuild-whe)
 - [Solana Devnet Faucet - Airdrop SOL](https://faucet.solana.com/)
