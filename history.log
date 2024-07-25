@@ -1,200 +1,200 @@
- 1808  pwd
- 1809  ll
- 1810  tre
- 1811  mv scenario.ts ~/DL/
- 1812  ll
- 1813  mv SCENARIO.md ~/DL/
- 1814  zz ato
- 1815  ll backup/
- 1816  zz _node
- 1817  solana-test-validator --reset
- 1818  zz ato
- 1819  rm -rf test-ledger/
- 1820  ll
- 1821  tree --gitignore
- 1822  tree --help
- 1823  tree --gitignore --dirsfirst
- 1824  exit
- 1825  zzz ato
- 1826  anchor test --skip-local-validator
- 1827  zz _node
- 1828  solana-test-validator --reset
- 1829  zzz ato
- 1830  tig
- 1831  bak "📝 Add documentation on README; Build OK; Deplou OK; Tests OK"
- 1832  gitpush
- 1833  anchor test --skip-local-validator
- 1834  zz _node
- 1835  solana-test-validator --reset
- 1836  ll
- 1837  rm Sélection_015.png 
- 1838  rm Sélection_016.png 
- 1839  rm Sélection_017.png 
+ 1805  zz ato
+ 1806  ll backup/
+ 1807  zz _node
+ 1808  solana-test-validator --reset
+ 1809  zz ato
+ 1810  rm -rf test-ledger/
+ 1811  ll
+ 1812  tree --gitignore
+ 1813  tree --help
+ 1814  tree --gitignore --dirsfirst
+ 1815  exit
+ 1816  zzz ato
+ 1817  anchor test --skip-local-validator
+ 1818  zz _node
+ 1819  solana-test-validator --reset
+ 1820  zzz ato
+ 1821  tig
+ 1822  bak "📝 Add documentation on README; Build OK; Deplou OK; Tests OK"
+ 1823  gitpush
+ 1824  anchor test --skip-local-validator
+ 1825  zz _node
+ 1826  solana-test-validator --reset
+ 1827  ll
+ 1828  rm Sélection_015.png 
+ 1829  rm Sélection_016.png 
+ 1830  rm Sélection_017.png 
+ 1831  zzz ato
+ 1832  anchor test --skip-local-validator
+ 1833  tig
+ 1834  bak "📝 Add contents on README; Build OK; Deploy OK; Tests OK"
+ 1835  gitpush
+ 1836  anchor test --skip-local-validator
+ 1837  tig
+ 1838  bak "📝 Fix typo on README; Build OK; Deploy OK; Tests OK"
+ 1839  gitpush
  1840  zzz ato
  1841  anchor test --skip-local-validator
  1842  tig
- 1843  bak "📝 Add contents on README; Build OK; Deploy OK; Tests OK"
+ 1843  bak "📝 Add ATO logo; Build OK; Deploy OK; Tests OK"
  1844  gitpush
- 1845  anchor test --skip-local-validator
- 1846  tig
- 1847  bak "📝 Fix typo on README; Build OK; Deploy OK; Tests OK"
- 1848  gitpush
+ 1845  zz ato
+ 1846  git status 
+ 1847  zz _node
+ 1848  solana-test-validator --reset
  1849  zzz ato
- 1850  anchor test --skip-local-validator
- 1851  tig
- 1852  bak "📝 Add ATO logo; Build OK; Deploy OK; Tests OK"
- 1853  gitpush
- 1854  zz ato
- 1855  git status 
- 1856  zz _node
- 1857  solana-test-validator --reset
- 1858  zzz ato
- 1859  htop
- 1860  code
- 1861  cat package.json | grep "mocha"
- 1862  zz _node
- 1863  solana-test-validator --reset
- 1864  zz ato
- 1865  anchor test --skip-local-validator
- 1866  ll
- 1867  ll ATO*
- 1868  rm ATO*
- 1869  rm ATO-Slides-présentation.pdf 
+ 1850  htop
+ 1851  code
+ 1852  cat package.json | grep "mocha"
+ 1853  zz _node
+ 1854  solana-test-validator --reset
+ 1855  zz ato
+ 1856  anchor test --skip-local-validator
+ 1857  ll
+ 1858  ll ATO*
+ 1859  rm ATO*
+ 1860  rm ATO-Slides-présentation.pdf 
+ 1861  ll
+ 1862  rm logoAto.png 
+ 1863  ll
+ 1864  rm Slides\ présentation.pptx 
+ 1865  zz summer
+ 1866  zz learn
+ 1867  mkdir solana_summer_fellowship
+ 1868  ll
+ 1869  cd solana_summer_fellowship/
  1870  ll
- 1871  rm logoAto.png 
+ 1871  mkdir exo-s1
  1872  ll
- 1873  rm Slides\ présentation.pptx 
- 1874  zz summer
- 1875  zz learn
- 1876  mkdir solana_summer_fellowship
+ 1873  cd exo-s1/
+ 1874  ll
+ 1875  bun
+ 1876  sudo snap install bun-js
  1877  ll
- 1878  cd solana_summer_fellowship/
+ 1878  bun init
  1879  ll
- 1880  mkdir exo-s1
+ 1880  cd ..
  1881  ll
- 1882  cd exo-s1/
+ 1882  cd solana_summer_fellowship/
  1883  ll
- 1884  bun
- 1885  sudo snap install bun-js
- 1886  ll
- 1887  bun init
- 1888  ll
- 1889  cd ..
- 1890  ll
- 1891  cd solana_summer_fellowship/
- 1892  ll
- 1893  cd exo-s1/
- 1894  bun init
- 1895  cd ..
- 1896  ll
- 1897  mv exo-s1/ exo_s1
- 1898  ll
- 1899  cd exo_s1/
- 1900  bun init
- 1901  sudo sna remove bun-js
- 1902  sudo snap remove bun-js
- 1903  curl -fsSL https://bun.sh/install 
- 1904  curl -fsSL https://bun.sh/install | bash 
- 1905  [200~source /home/franck/.bashrc 
- 1906  source /home/franck/.bashrc 
- 1907  bun --help
- 1908  ll
- 1909  history 
- 1910  ll
- 1911  bun init
- 1912  code .
- 1913  bun run index.ts 
- 1914  bun install @solana/web3.js
- 1915  ll
- 1916  batcat index.ts 
+ 1884  cd exo-s1/
+ 1885  bun init
+ 1886  cd ..
+ 1887  ll
+ 1888  mv exo-s1/ exo_s1
+ 1889  ll
+ 1890  cd exo_s1/
+ 1891  bun init
+ 1892  sudo sna remove bun-js
+ 1893  sudo snap remove bun-js
+ 1894  curl -fsSL https://bun.sh/install 
+ 1895  curl -fsSL https://bun.sh/install | bash 
+ 1896  [200~source /home/franck/.bashrc 
+ 1897  source /home/franck/.bashrc 
+ 1898  bun --help
+ 1899  ll
+ 1900  history 
+ 1901  ll
+ 1902  bun init
+ 1903  code .
+ 1904  bun run index.ts 
+ 1905  bun install @solana/web3.js
+ 1906  ll
+ 1907  batcat index.ts 
+ 1908  code .
+ 1909  bun run index.ts 
+ 1910  solana config get
+ 1911  bun run index.ts 
+ 1912  code
+ 1913  zz _node
+ 1914  solana-test-validator --reset
+ 1915  zz s1
+ 1916  cat index.ts 
  1917  code .
  1918  bun run index.ts 
- 1919  solana config get
- 1920  bun run index.ts 
- 1921  code
- 1922  zz _node
- 1923  solana-test-validator --reset
- 1924  zz s1
- 1925  cat index.ts 
- 1926  code .
- 1927  bun run index.ts 
- 1928  npm run rebuild
- 1929  npm run
- 1930  bun run index.ts 
- 1931  npm rebuild
- 1932  bun run index.ts 
- 1933  ll
- 1934  history > history.log
- 1935  bun run index.ts 
- 1936  ll
- 1937  rm Marvels.Jessica.Jones.S03.E01-E13.MULTi.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-ARK01.zip 
- 1938  rm -rf Marvels.Jessica.Jones.S03.E01-E13.MULTi.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-ARK01/
- 1939  ll
- 1940  rm ottersnapshot_2ALTVFGUJXMZRUTL_1721753417_SHARED_snapshot.png 
- 1941  ll
- 1942  rm auto-stg-backup-2024-07-1*.json
- 1943  cd ..
- 1944  zz s1
- 1945  code .
- 1946  bun run cli.js 
- 1947  bun run cli.js greet --name alice
- 1948  bun run cli.js greet --name bob
- 1949  bun run cli.js greet --name alice
- 1950  bun run cli.js farewell --name alice
- 1951  bun run cli.js wallet --name alice
- 1952  bun run cli.js wallet --name bob
- 1953  bun run cli.ts wallet --name bob
- 1954  bun run cli.js wallet --name bob
- 1955  bun run cli.ts wallet --name alice
- 1956  ll
- 1957  batcat alice.wallet.json 
- 1958  bun run cli.ts wallet --name alice
- 1959  batcat alice.wallet.json 
+ 1919  npm run rebuild
+ 1920  npm run
+ 1921  bun run index.ts 
+ 1922  npm rebuild
+ 1923  bun run index.ts 
+ 1924  ll
+ 1925  history > history.log
+ 1926  bun run index.ts 
+ 1927  ll
+ 1928  rm Marvels.Jessica.Jones.S03.E01-E13.MULTi.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-ARK01.zip 
+ 1929  rm -rf Marvels.Jessica.Jones.S03.E01-E13.MULTi.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-ARK01/
+ 1930  ll
+ 1931  rm ottersnapshot_2ALTVFGUJXMZRUTL_1721753417_SHARED_snapshot.png 
+ 1932  ll
+ 1933  rm auto-stg-backup-2024-07-1*.json
+ 1934  cd ..
+ 1935  zz s1
+ 1936  code .
+ 1937  bun run cli.js 
+ 1938  bun run cli.js greet --name alice
+ 1939  bun run cli.js greet --name bob
+ 1940  bun run cli.js greet --name alice
+ 1941  bun run cli.js farewell --name alice
+ 1942  bun run cli.js wallet --name alice
+ 1943  bun run cli.js wallet --name bob
+ 1944  bun run cli.ts wallet --name bob
+ 1945  bun run cli.js wallet --name bob
+ 1946  bun run cli.ts wallet --name alice
+ 1947  ll
+ 1948  batcat alice.wallet.json 
+ 1949  bun run cli.ts wallet --name alice
+ 1950  batcat alice.wallet.json 
+ 1951  bun run cli.ts balance --name alice
+ 1952  bun run cli.ts balance --name bob
+ 1953  ll
+ 1954  bun run cli.ts balance --name alice
+ 1955  batcat alice.wallet.json 
+ 1956  bun run cli.ts balance --name alice
+ 1957  bun run cli.ts airdrop --name alice
+ 1958  bun run cli.ts balance --name alice
+ 1959  bun run cli.ts airdrop --name alice
  1960  bun run cli.ts balance --name alice
- 1961  bun run cli.ts balance --name bob
- 1962  ll
- 1963  bun run cli.ts balance --name alice
- 1964  batcat alice.wallet.json 
- 1965  bun run cli.ts balance --name alice
- 1966  bun run cli.ts airdrop --name alice
- 1967  bun run cli.ts balance --name alice
- 1968  bun run cli.ts airdrop --name alice
- 1969  bun run cli.ts balance --name alice
- 1970  bun run cli.ts airdrop --name alice
- 1971  bun run cli.ts balance --name alice
- 1972  bun run cli.ts a2 --name alice --amount 3
+ 1961  bun run cli.ts airdrop --name alice
+ 1962  bun run cli.ts balance --name alice
+ 1963  bun run cli.ts a2 --name alice --amount 3
+ 1964  bun run cli.ts balance --name alice
+ 1965  bun run cli.ts airdrop --name alice --amount 2
+ 1966  bun run cli.ts balance --name alice
+ 1967  bun run cli.ts transfer --name alice
+ 1968  bun run cli.ts transfer --from alice --to bob --amount
+ 1969  bun run cli.ts transfer --from alice --to bob --amount 1
+ 1970  bun run cli.ts wallet --name bob
+ 1971  ll
+ 1972  bun run cli.ts balance --name bob
  1973  bun run cli.ts balance --name alice
- 1974  bun run cli.ts airdrop --name alice --amount 2
- 1975  bun run cli.ts balance --name alice
- 1976  bun run cli.ts transfer --name alice
- 1977  bun run cli.ts transfer --from alice --to bob --amount
- 1978  bun run cli.ts transfer --from alice --to bob --amount 1
- 1979  bun run cli.ts wallet --name bob
- 1980  ll
- 1981  bun run cli.ts balance --name bob
- 1982  bun run cli.ts balance --name alice
- 1983  bun run cli.ts transfer --from alice --to bob --amount 1
- 1984  cat alice.wallet.json 
- 1985  cat bob.wallet.json 
- 1986  bun run cli.ts balance --name alice
- 1987  bun run cli.ts balance --name bob
- 1988  bun run cli.ts transfer --from alice --to bob --amount 1
- 1989  bun run cli.ts balance --name bob
- 1990  bun run cli.ts balance --name alice
- 1991  bun run cli.ts transfer --from alice --to bob --amount 1
- 1992  bun run cli.ts balance --name alice
- 1993  bun run cli.ts balance --name bob
- 1994  bun run cli.ts balance --name alice
- 1995  zz _node
- 1996  solvalr
- 1997  zz s1
+ 1974  bun run cli.ts transfer --from alice --to bob --amount 1
+ 1975  cat alice.wallet.json 
+ 1976  cat bob.wallet.json 
+ 1977  bun run cli.ts balance --name alice
+ 1978  bun run cli.ts balance --name bob
+ 1979  bun run cli.ts transfer --from alice --to bob --amount 1
+ 1980  bun run cli.ts balance --name bob
+ 1981  bun run cli.ts balance --name alice
+ 1982  bun run cli.ts transfer --from alice --to bob --amount 1
+ 1983  bun run cli.ts balance --name alice
+ 1984  bun run cli.ts balance --name bob
+ 1985  bun run cli.ts balance --name alice
+ 1986  zz _node
+ 1987  solvalr
+ 1988  zz s1
+ 1989  bak "1st commit"
+ 1990  git remote add origin https://github.com/Laugharne/ssf_s1_exo.git
+ 1991  zz s1
+ 1992  git remote add origin https://github.com/Laugharne/ssf_s1_exo.git
+ 1993  git branch -M main
+ 1994  git push -u origin main
+ 1995  git init
+ 1996  git status 
+ 1997  tig
  1998  bak "1st commit"
- 1999  git remote add origin https://github.com/Laugharne/ssf_s1_exo.git
+ 1999  tre
  2000  zz s1
- 2001  git remote add origin https://github.com/Laugharne/ssf_s1_exo.git
- 2002  git branch -M main
- 2003  git push -u origin main
- 2004  git init
- 2005  git status 
- 2006  tig
- 2007  bak "1st commit"
+ 2001  tre
+ 2002  rm backup/2024-07-25\ -\ 16-24\ -\ exo_s1.backup.zip 
+ 2003  tre
+ 2004  bak "1st commit"
