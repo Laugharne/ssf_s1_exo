@@ -39,7 +39,7 @@ Create Key Pair into "alice.wallet.json" file !
 
 ```
 ```bash
-$ bun run cli.ts wallet --name alice
+$ bun run cli.ts wallet --name bob
 
 Create Key Pair into "bob.wallet.json" file !
 CXzmHbMxx1drjk42hshaP6R6m2i2btLnpm3hZoMMSA9L

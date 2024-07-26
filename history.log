@@ -1,8 +1,3 @@
- 1803  ll
- 1804  ll ATO*
- 1805  rm ATO*
- 1806  rm ATO-Slides-présentation.pdf 
- 1807  ll
  1808  rm logoAto.png 
  1809  ll
  1810  rm Slides\ présentation.pptx 
@@ -198,3 +193,8 @@
  2000  zzz s1
  2001  tig
  2002  bak "Beautify README again..."
+ 2003  gitpush
+ 2004  tre
+ 2005  tree --gitignore
+ 2006  code .
+ 2007  bak "Fix cut/paste error in README"
